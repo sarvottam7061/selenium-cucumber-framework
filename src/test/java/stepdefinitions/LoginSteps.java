@@ -27,8 +27,8 @@ public class LoginSteps {
         String actualLoginHeaderTitle = loginPage.getLoginHeaderTitle();
         Assert.assertEquals("Silakan masuk ke akun Anda", actualLoginHeaderTitle);
 
-        String actualRegisterQuestionText = loginPage.getQuestionRegisterText();
-        Assert.assertEquals("Belum punya akun Bhinneka? Daftar", actualRegisterQuestionText);
+//        String actualRegisterQuestionText = loginPage.getQuestionRegisterText();
+//        Assert.assertEquals("Belum punya akun Bhinneka? Daftar", actualRegisterQuestionText);
     }
 
     @When("Input {string} as email, {string} as password, {string} as account type")
